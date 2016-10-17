@@ -2,6 +2,8 @@
 
 Conekta in Xcode 8, Swift 3
 
+Based on https://github.com/conekta/conekta-ios
+
 ### Swift 3 ViewController Example
 
 ```swift
