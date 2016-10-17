@@ -14,6 +14,9 @@
 		643465E21DB4883F00EB8FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643465E01DB4883F00EB8FBA /* LaunchScreen.storyboard */; };
 		643465ED1DB4883F00EB8FBA /* ConektaSwift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643465EC1DB4883F00EB8FBA /* ConektaSwift3Tests.swift */; };
 		643465F81DB4883F00EB8FBA /* ConektaSwift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643465F71DB4883F00EB8FBA /* ConektaSwift3UITests.swift */; };
+		643466091DB488AE00EB8FBA /* Conekta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643466051DB488AE00EB8FBA /* Conekta.swift */; };
+		6434660A1DB488AE00EB8FBA /* ConektaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643466061DB488AE00EB8FBA /* ConektaCard.swift */; };
+		6434660B1DB488AE00EB8FBA /* ConektaToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643466071DB488AE00EB8FBA /* ConektaToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		643465F31DB4883F00EB8FBA /* ConektaSwift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConektaSwift3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		643465F71DB4883F00EB8FBA /* ConektaSwift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConektaSwift3UITests.swift; sourceTree = "<group>"; };
 		643465F91DB4883F00EB8FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643466051DB488AE00EB8FBA /* Conekta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conekta.swift; sourceTree = "<group>"; };
+		643466061DB488AE00EB8FBA /* ConektaCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConektaCard.swift; sourceTree = "<group>"; };
+		643466071DB488AE00EB8FBA /* ConektaToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConektaToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		643465D61DB4883F00EB8FBA /* ConektaSwift3 */ = {
 			isa = PBXGroup;
 			children = (
+				643466051DB488AE00EB8FBA /* Conekta.swift */,
+				643466061DB488AE00EB8FBA /* ConektaCard.swift */,
+				643466071DB488AE00EB8FBA /* ConektaToken.swift */,
 				643465D71DB4883F00EB8FBA /* AppDelegate.swift */,
 				643465D91DB4883F00EB8FBA /* ViewController.swift */,
 				643465DB1DB4883F00EB8FBA /* Main.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				643465DA1DB4883F00EB8FBA /* ViewController.swift in Sources */,
+				6434660B1DB488AE00EB8FBA /* ConektaToken.swift in Sources */,
 				643465D81DB4883F00EB8FBA /* AppDelegate.swift in Sources */,
+				643466091DB488AE00EB8FBA /* Conekta.swift in Sources */,
+				6434660A1DB488AE00EB8FBA /* ConektaCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +516,7 @@
 				643465FE1DB4883F00EB8FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643465FF1DB4883F00EB8FBA /* Build configuration list for PBXNativeTarget "ConektaSwift3Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				643466011DB4883F00EB8FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643466021DB4883F00EB8FBA /* Build configuration list for PBXNativeTarget "ConektaSwift3UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +534,7 @@
 				643466041DB4883F00EB8FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
