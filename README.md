@@ -1,8 +1,5 @@
 # ConektaiOS-Swift3
 
-Conekta iOS Swift 3
-======================
-
 Conekta in Xcode 8, Swift 3
 
 ### Swift 3 ViewController Example
